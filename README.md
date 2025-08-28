@@ -1,6 +1,6 @@
 # 🔍 Buscador de YouTube
 
-![Fondo](roaxen.github.io/FLORAL.jpg)
+![Fondo](https://pixabay.com/es/photos/girasoles-jarrón-3292932)
 <input type="text" placeholder="Escribe tu búsqueda aquí" />
 
 ---
