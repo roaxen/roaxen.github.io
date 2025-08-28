@@ -1,6 +1,6 @@
 # 🔍 Buscador de YouTube
 
-![Fondo](https://ruta-de-tu-imagen.jpg)
+![Fondo](roaxen.github.io/FLORAL.jpg)
 <input type="text" placeholder="Escribe tu búsqueda aquí" />
 
 ---
