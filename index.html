@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Buscador personalizado</title>
+</head>
+<body style="display:flex; flex-direction:column; align-items:center; justify-content:center; height:100vh; background:#181818; color:white; font-family:sans-serif;">
+
+  <h1>🔍 Buscador personalizado</h1>
+  
+  <input type="text" id="nombre" placeholder="Escribe un nombre..." 
+    style="padding:10px; width:250px; border-radius:8px; border:none; margin-top:15px;">
+  
+  <button onclick="redirigir()" 
+    style="margin-top:15px; padding:10px 20px; border:none; border-radius:8px; background:#ff0000; color:white; font-weight:bold; cursor:pointer;">
+    Enviar
+  </button>
+
+  <script>
+    function redirigir() {
+      const nombre = document.getElementById("nombre").value.trim().toLowerCase();
+      
+      if (nombre === "gato") {
+        window.location.href = "https://www.youtube.com/watch?v=hvi3J3yBRXI";
+      } else if (nombre === "perro") {
+        window.location.href = "https://www.youtube.com/shorts/DnenOYd6-Ng";
+      } else {
+        window.location.href = "https://www.youtube.com/results?search_query=" + encodeURIComponent(nombre);
+      }
+    }
+  </script>
+</body>
+</html>
