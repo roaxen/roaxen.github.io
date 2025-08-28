@@ -1,6 +1,7 @@
 # 🔍 Buscador de YouTube
+<div style="background-image: url(./FLORAL.jpg); background-size: cover; padding: 40px; border-radius: 12px;">
 
-![Fondo](https://pixabay.com/es/photos/girasoles-jarrón-3292932)
+![Fondo](./FLORAL.jpg)
 <input type="text" placeholder="Escribe tu búsqueda aquí" />
 
 ---
