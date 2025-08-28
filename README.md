@@ -1,5 +1,6 @@
 # 🔍 Buscador de YouTube
 
+![Fondo](https://ruta-de-tu-imagen.jpg)
 <input type="text" placeholder="Escribe tu búsqueda aquí" />
 
 ---
